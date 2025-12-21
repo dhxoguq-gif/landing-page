@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+:root {
+  --background: #1a1612;
+  --foreground: #FFF8E7;
+  --accent: #FFB84D;
+  --warm-glow: #FFA500;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+}
+
+/* 따뜻한 글로우 효과 */
+.warm-glow {
+  box-shadow: 0 0 20px rgba(255, 184, 77, 0.3), 0 0 40px rgba(255, 165, 0, 0.2);
+}
+
+.warm-glow-text {
+  text-shadow: 0 0 10px rgba(255, 184, 77, 0.5);
+}
