@@ -1,8 +1,20 @@
 export default function Home() {
   return (
     <main className="min-h-screen bg-white text-gray-900">
+      {/* Brand Header */}
+      <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-sm border-b border-gray-200">
+        <div className="max-w-7xl mx-auto px-4 py-4">
+          <div className="text-center">
+            <h1 className="text-3xl md:text-4xl font-bold tracking-wider text-[#FF6B35]">
+              VERITAS
+            </h1>
+            <p className="text-xs md:text-sm text-gray-500 mt-1 tracking-widest">진정성 있는 만남</p>
+          </div>
+        </div>
+      </header>
+
       {/* Hero Section */}
-      <section className="flex flex-col items-center justify-center min-h-screen px-4 py-20 relative overflow-hidden bg-gradient-to-b from-[#FAFAF8] to-white">
+      <section className="flex flex-col items-center justify-center min-h-screen px-4 py-20 relative overflow-hidden bg-gradient-to-b from-[#FAFAF8] to-white pt-24">
         <div className="max-w-4xl mx-auto text-center relative z-10">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight text-gray-900">
             풋풋한 연애하고싶은<br />
@@ -207,7 +219,7 @@ export default function Home() {
       {/* Info Section */}
       <section className="py-20 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 text-gray-900">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">
             모집 대상 & 참가비 안내
           </h2>
           
@@ -313,10 +325,12 @@ export default function Home() {
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-gray-600 mb-2">문의사항이 있으시면 언제든지 연락주세요</p>
           <a 
-            href="mailto:dhxoguq@gmail.com" 
+            href="https://open.kakao.com/o/s4YGJB7h" 
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-[#FF6B35] font-semibold hover:underline"
           >
-            dhxoguq@gmail.com
+            카카오톡 오픈채팅으로 문의하기
           </a>
         </div>
       </section>
