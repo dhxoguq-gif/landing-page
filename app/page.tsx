@@ -31,7 +31,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className="inline-block bg-gradient-to-r from-[#FF6B35] to-[#FF8C42] hover:opacity-90 text-white font-bold py-4 px-10 rounded-lg text-lg transition duration-300 shadow-lg hover:shadow-xl"
             >
-              지금 바로 부담 없이 신청하기
+              지금 바로 간단한 자격 확인하기
               <span className="block text-sm font-normal mt-1">선착순 마감</span>
             </a>
           </div>
@@ -69,6 +69,15 @@ export default function Home() {
               <h4 className="text-2xl font-bold mb-4 text-gray-900">여성분 특별 혜택</h4>
               <p className="text-gray-600 leading-relaxed">
                 최종 선택이 없을 시, <span className="text-[#FF6B35] font-semibold">여성분들의 참가비 50%를 반환</span>해드립니다. 다른 모임과 달리 진정성 있는 만남을 위해 특별히 준비한 혜택입니다.
+              </p>
+            </div>
+
+            {/* 차별점 1-2 */}
+            <div className="bg-gray-50 p-8 rounded-lg border border-gray-200 hover:border-[#FF6B35] hover:shadow-lg transition duration-300">
+              <div className="text-3xl mb-4">🎯</div>
+              <h4 className="text-2xl font-bold mb-4 text-gray-900">남성분 특별 혜택</h4>
+              <p className="text-gray-600 leading-relaxed">
+                <span className="text-[#FF6B35] font-semibold">최다득표 남성의 경우 참가비 50% 환급 이벤트!</span> 많은 분들의 선택을 받은 남성분께 특별한 혜택을 드립니다.
               </p>
             </div>
 
@@ -227,11 +236,9 @@ export default function Home() {
             <div>
               <h3 className="text-2xl font-bold mb-4 text-[#FF6B35]">참가 자격</h3>
               <ul className="text-gray-600 space-y-2">
-                <li>• 미혼 남여</li>
-                <li>• 직장인 (재직증명서 또는 명함 인증 필수)</li>
+                <li>• 미혼 남여 (혼인관계증명서 제출 필수)</li>
+                <li>• 대구 경북에서 일하고 있는 직장인 (재직증명서 또는 명함 인증 필수)</li>
                 <li>• 만 25세 이상</li>
-                <li>• 혼인관계증명서 제출 필수</li>
-                <li>• 진정성 있는 만남을 추구하시는 분</li>
               </ul>
             </div>
             
@@ -245,7 +252,8 @@ export default function Home() {
 
             <div className="pt-6 border-t border-gray-200">
               <h3 className="text-2xl font-bold mb-4 text-[#FF6B35]">디파짓</h3>
-              <p className="text-lg text-gray-700 mb-4">참가비와 별도로 디파짓을 받습니다.</p>
+              <p className="text-lg text-gray-700 mb-2">참가비와 별도로 디파짓을 받습니다.</p>
+              <p className="text-3xl font-bold text-gray-900 mb-4">10,000원</p>
               <div className="text-gray-500 space-y-2 text-sm">
                 <p>※ 노쇼 방지 및 진정성 있는 참여를 위한 제도입니다.</p>
                 <p>※ <span className="text-[#FF6B35] font-semibold">남여 모두 디파짓은 100% 환급</span>해드립니다.</p>
@@ -274,10 +282,15 @@ export default function Home() {
 
             {/* FAQ 2 */}
             <div className="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
-              <h4 className="text-xl font-bold mb-3 text-[#FF6B35]">Q. 선택을 했는데 매칭이 안 되면요?</h4>
-              <p className="text-gray-600 leading-relaxed">
-                최종 선택을 하셨으므로 규정에 따라 50% 환급 진행! 하지만 매칭이 안 된 아쉬움을 달래드리기 위해, <span className="text-[#FF6B35] font-semibold">상대방의 의사를 확인한 후 연락처를 전달받을 수 있는 '1회 연결 서비스'</span>를 무료로 제공!
-              </p>
+              <h4 className="text-xl font-bold mb-3 text-[#FF6B35]">Q. 참가비용 환급 문제</h4>
+              <div className="text-gray-600 leading-relaxed space-y-2">
+                <p>취소 시점에 따라 환급 정책이 다릅니다:</p>
+                <ul className="list-disc list-inside space-y-1 ml-2">
+                  <li><span className="text-[#FF6B35] font-semibold">3일 전 취소 시:</span> 디파짓 제외 참가비 100% 환급</li>
+                  <li><span className="text-[#FF6B35] font-semibold">하루 전 취소 시:</span> 디파짓 제외 참가비 50% 환급</li>
+                  <li><span className="text-[#FF6B35] font-semibold">당일 취소 시:</span> 디파짓 + 참가비 모두 환급 없음</li>
+                </ul>
+              </div>
             </div>
 
             {/* FAQ 3 */}
@@ -294,10 +307,6 @@ export default function Home() {
       {/* Closing CTA Section */}
       <section className="py-20 px-4 bg-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl md:text-6xl font-bold mb-6 text-gray-900">
-            밑져야 본전이라는 말은<br />
-            이럴 때 쓰는거죠.
-          </h2>
           <p className="text-lg md:text-xl text-gray-700 mb-8 leading-relaxed">
             개인의 프라이버시가 중요시되는 세상에서<br />
             점점 더 이성간 만남의 기회가 줄어들고 있어<br />
@@ -313,7 +322,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className="inline-block bg-gradient-to-r from-[#FF6B35] to-[#FF8C42] hover:opacity-90 text-white font-bold py-4 px-10 rounded-lg text-lg transition duration-300 shadow-lg hover:shadow-xl"
             >
-              참가 신청하기
+              자격 확인하기
               <span className="block text-sm font-normal mt-1">선착순 마감</span>
             </a>
           </div>
