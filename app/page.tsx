@@ -298,7 +298,7 @@ export default function Home() {
             밑져야 본전이라는 말은<br />
             이럴 때 쓰는거죠.
           </h2>
-          <p className="text-xl md:text-2xl text-gray-700 mb-8 leading-relaxed">
+          <p className="text-lg md:text-xl text-gray-700 mb-8 leading-relaxed">
             개인의 프라이버시가 중요시되는 세상에서<br />
             점점 더 이성간 만남의 기회가 줄어들고 있어<br />
             아쉬움을 느꼈고, 지인들을 매칭해주면서<br />
