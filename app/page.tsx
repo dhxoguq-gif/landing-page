@@ -48,6 +48,7 @@ export default function Home() {
             <p>비싼 참가비를 냈는데, 마음에 드는 사람이 없을까 봐 걱정되시나요?</p>
             <p>시간과 돈을 투자했는데 만족스럽지 않은 결과가 나올까 두려우신가요?</p>
             <p>진정성 있는 만남을 찾고 싶은데, 부담스러운 비용 때문에 망설여지시나요?</p>
+            <p>지인 소개팅은 선택의 폭이 좁고, 클럽이나 술집에서 만남은 너무 가볍고, 그렇다고 아무나 만나기엔 망설여지시나요?</p>
           </div>
         </div>
       </section>
@@ -68,7 +69,7 @@ export default function Home() {
               <div className="text-3xl mb-4">💝</div>
               <h4 className="text-2xl font-bold mb-4 text-gray-900">여성분 특별 혜택</h4>
               <p className="text-gray-600 leading-relaxed">
-                최종 선택이 없을 시, <span className="text-[#FF6B35] font-semibold">여성분들의 참가비 50%를 반환</span>해드립니다. 다른 모임과 달리 진정성 있는 만남을 위해 특별히 준비한 혜택입니다.
+                최종 선택이 없을 시, <span className="text-[#FF6B35] font-semibold">여성분들의 참가비 70%를 환급</span>해드립니다. 다른 모임과 달리 진정성 있는 만남을 위해 특별히 준비한 혜택입니다.
               </p>
             </div>
 
@@ -95,7 +96,7 @@ export default function Home() {
               <div className="text-3xl mb-4">🎁</div>
               <h4 className="text-2xl font-bold mb-4 text-gray-900">추가비용 없는 번호 제공</h4>
               <p className="text-gray-600 leading-relaxed">
-                일인당 한 명씩 필요하시다면, 상호 합의 하에 번호를 제공해드립니다. <span className="text-[#FF6B35] font-semibold">타 모임과 달리 추가비용이 전혀 없습니다.</span> 진정성 있는 만남을 위해 운영진이 중재해드립니다.
+                일인당 한 명씩 필요하시다면, 상호 합의 하에 번호를 제공해드립니다. <span className="text-[#FF6B35] font-semibold">타 모임과 달리 추가비용이 전혀 없습니다.</span> 진정성 있는 만남을 위해 운영진이 중재해드립니다. <span className="text-[#FF6B35] font-semibold">단, 최종 선택을 하지 않은 여성 참여자에게는 제공되지 않습니다.</span>
               </p>
             </div>
 
@@ -105,6 +106,15 @@ export default function Home() {
               <h4 className="text-2xl font-bold mb-4 text-gray-900">넓은 인력풀</h4>
               <p className="text-gray-600 leading-relaxed">
                 <span className="text-[#FF6B35] font-semibold">영남대학교, 경북대학교 출신 운영자들</span>의 넓은 인력풀을 통해 다양한 분들과의 만남을 제공합니다. 다양한 직업과 배경을 가진 분들과의 만남이 가능합니다.
+              </p>
+            </div>
+
+            {/* 차별점 5 */}
+            <div className="bg-gray-50 p-8 rounded-lg border border-gray-200 hover:border-[#FF6B35] hover:shadow-lg transition duration-300">
+              <div className="text-3xl mb-4">💌</div>
+              <h4 className="text-2xl font-bold mb-4 text-gray-900">사후관리 서비스</h4>
+              <p className="text-gray-600 leading-relaxed">
+                모임이 끝난 후에도 인연의 끈이 이어질 수 있도록 소셜 브릿지 역할을 해드립니다. 아쉽게 짝을 만나지 못한 참여자들이 다른 모임분들과 연결될 수 있도록 도와주는 커뮤니티 케어 시스템입니다.
               </p>
             </div>
           </div>
@@ -205,8 +215,7 @@ export default function Home() {
                 <h4 className="text-2xl font-bold mb-2 text-gray-900">결과 발표</h4>
                 <ul className="text-gray-600 space-y-2 mt-2">
                   <li>• 매칭 결과 개별 문자 발송</li>
-                  <li>• 선택 미진행 시: 계좌로 디파짓 <span className="text-[#FF6B35] font-semibold">100% 즉시 환불</span></li>
-                  <li>• 선택 진행 시: 디파짓 <span className="text-[#FF6B35] font-semibold">50% 환불</span> + 매칭 성공 시 연락처 교환</li>
+                  <li>• 매칭 성공 시 연락처 교환</li>
                 </ul>
               </div>
             </div>
@@ -236,28 +245,18 @@ export default function Home() {
             <div>
               <h3 className="text-2xl font-bold mb-4 text-[#FF6B35]">참가 자격</h3>
               <ul className="text-gray-600 space-y-2">
-                <li>• 미혼 남여 (혼인관계증명서 제출 필수)</li>
+                <li>• 미혼 남여 (사실혼관계 참여 불가)</li>
                 <li>• 대구 경북에서 일하고 있는 직장인 (재직증명서 또는 명함 인증 필수)</li>
                 <li>• 만 25세 이상</li>
+                <li>• 진정성 있는 만남을 원하시는 분</li>
               </ul>
             </div>
             
             <div className="pt-6 border-t border-gray-200">
               <h3 className="text-2xl font-bold mb-4 text-[#FF6B35]">참가 비용</h3>
               <div className="mb-4">
-                <p className="text-3xl font-bold text-gray-900 mb-2">남자: 40,000원</p>
-                <p className="text-3xl font-bold text-gray-900">여자: 40,000원</p>
-              </div>
-            </div>
-
-            <div className="pt-6 border-t border-gray-200">
-              <h3 className="text-2xl font-bold mb-4 text-[#FF6B35]">디파짓</h3>
-              <p className="text-lg text-gray-700 mb-2">참가비와 별도로 디파짓을 받습니다.</p>
-              <p className="text-3xl font-bold text-gray-900 mb-4">10,000원</p>
-              <div className="text-gray-500 space-y-2 text-sm">
-                <p>※ 노쇼 방지 및 진정성 있는 참여를 위한 제도입니다.</p>
-                <p>※ <span className="text-[#FF6B35] font-semibold">남여 모두 디파짓은 100% 환급</span>해드립니다.</p>
-                <p>※ 행사 종료 후 여성참여자의 경우 최종선택을 하지 않으면 참가비의 50% 환급됩니다.</p>
+                <p className="text-3xl font-bold text-gray-900 mb-2">남성 참가자: 49,000원</p>
+                <p className="text-3xl font-bold text-gray-900">여성 참여자: 39,000원</p>
               </div>
             </div>
           </div>
@@ -286,9 +285,9 @@ export default function Home() {
               <div className="text-gray-600 leading-relaxed space-y-2">
                 <p>취소 시점에 따라 환급 정책이 다릅니다:</p>
                 <ul className="list-disc list-inside space-y-1 ml-2">
-                  <li><span className="text-[#FF6B35] font-semibold">3일 전 취소 시:</span> 디파짓 제외 참가비 100% 환급</li>
-                  <li><span className="text-[#FF6B35] font-semibold">하루 전 취소 시:</span> 디파짓 제외 참가비 50% 환급</li>
-                  <li><span className="text-[#FF6B35] font-semibold">당일 취소 시:</span> 디파짓 + 참가비 모두 환급 없음</li>
+                  <li><span className="text-[#FF6B35] font-semibold">3일 전 취소 시:</span> 참가비 100% 환급</li>
+                  <li><span className="text-[#FF6B35] font-semibold">하루 전 취소 시:</span> 참가비 50% 환급</li>
+                  <li><span className="text-[#FF6B35] font-semibold">당일 취소 시:</span> 참가비 환급 없음</li>
                 </ul>
               </div>
             </div>
@@ -333,14 +332,26 @@ export default function Home() {
       <section className="py-12 px-4 bg-gray-50 border-t border-gray-200">
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-gray-600 mb-2">문의사항이 있으시면 언제든지 연락주세요</p>
-          <a 
-            href="https://open.kakao.com/o/s4YGJB7h" 
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-[#FF6B35] font-semibold hover:underline"
-          >
-            카카오톡 오픈채팅으로 문의하기
-          </a>
+          <div className="space-y-2">
+            <a 
+              href="https://open.kakao.com/o/s4YGJB7h" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#FF6B35] font-semibold hover:underline"
+            >
+              카카오톡 오픈채팅으로 문의하기
+            </a>
+            <div>
+              <a 
+                href="https://instagram.com/l__veritas" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#FF6B35] font-semibold hover:underline"
+              >
+                인스타그램: @l__veritas
+              </a>
+            </div>
+          </div>
         </div>
       </section>
     </main>
