@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "직장인 로테이션 소개팅 | 마음에 안 들면 100% 환불",
-  description: "직장인 검증 100%. 부담은 0%. 마음에 드는 분이 없다면 예치금 100% 전액 환불해 드립니다. 진정성 있는 만남을 위한 소개팅 서비스",
+  title: "직장인 로테이션 소개팅",
+  description: "직장인 검증 100%. 부담은 0%. 진정성 있는 만남을 위한 소개팅 서비스",
 };
 
 export default function RootLayout({
