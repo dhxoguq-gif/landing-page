@@ -5,39 +5,10 @@ export default function Home() {
       <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-sm border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 py-4">
           <div className="text-center">
-            <div className="flex items-center justify-center gap-3 mb-1">
-              <h1 className="text-3xl md:text-4xl font-bold tracking-wider text-[#FF6B35]">
-                VERITAS
-              </h1>
-              {/* 작은 라인 아트 */}
-              <svg viewBox="0 0 400 400" className="w-10 h-10 md:w-14 md:h-14 opacity-60">
-                <g stroke="#FF6B35" strokeWidth="2.5" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                  {/* 왼쪽 사람 (여성) */}
-                  <circle cx="120" cy="100" r="25" fill="#FF6B35" fillOpacity="0.1" />
-                  <path d="M 120 125 L 120 200" />
-                  <path d="M 120 150 L 90 170" />
-                  <path d="M 120 150 L 150 170" />
-                  <path d="M 120 200 L 100 250" />
-                  <path d="M 120 200 L 140 250" />
-                  
-                  {/* 오른쪽 사람 (남성) */}
-                  <circle cx="280" cy="100" r="25" fill="#FF6B35" fillOpacity="0.1" />
-                  <path d="M 280 125 L 280 200" />
-                  <path d="M 280 150 L 310 170" />
-                  <path d="M 280 150 L 250 170" />
-                  <path d="M 280 200 L 300 250" />
-                  <path d="M 280 200 L 260 250" />
-                  
-                  {/* 두 사람을 연결하는 하트 */}
-                  <path d="M 200 220 Q 180 200 200 180 Q 220 200 200 220" 
-                        stroke="#FF8C42" 
-                        strokeWidth="3" 
-                        fill="#FF8C42" 
-                        fillOpacity="0.3" />
-                </g>
-              </svg>
-            </div>
-            <p className="text-xs md:text-sm text-gray-500 tracking-widest">진정성 있는 만남</p>
+            <h1 className="text-3xl md:text-4xl font-bold tracking-wider text-[#FF6B35]">
+              VERITAS
+            </h1>
+            <p className="text-xs md:text-sm text-gray-500 mt-1 tracking-widest">진정성 있는 만남</p>
           </div>
         </div>
       </header>
@@ -55,10 +26,10 @@ export default function Home() {
           </p>
           <div className="flex flex-col items-center gap-2">
             <a 
-              href="https://naver.me/G3P2Zipo" 
+              href="https://naver.me/5xapdBCq" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="inline-block bg-gradient-to-r from-[#FF6B35] to-[#FF8C42] hover:opacity-90 text-white font-bold py-4 px-10 rounded-full text-lg transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 animate-pulse hover:animate-none"
+              className="inline-block bg-gradient-to-r from-[#FF6B35] to-[#FF8C42] hover:opacity-90 text-white font-bold py-4 px-10 rounded-lg text-lg transition duration-300 shadow-lg hover:shadow-xl"
             >
               지금 바로 간단한 자격 확인하기
               <span className="block text-sm font-normal mt-1">선착순 마감</span>
@@ -94,7 +65,7 @@ export default function Home() {
           
           <div className="grid md:grid-cols-2 gap-8">
             {/* 차별점 1 */}
-            <div className="bg-gray-50 p-8 rounded-[20px] border border-gray-200 hover:border-[#FF6B35] hover:shadow-lg transition duration-300 shadow-md">
+            <div className="bg-gray-50 p-8 rounded-lg border border-gray-200 hover:border-[#FF6B35] hover:shadow-lg transition duration-300">
               <div className="text-3xl mb-4">💝</div>
               <h4 className="text-2xl font-bold mb-4 text-gray-900">여성분 특별 혜택</h4>
               <p className="text-gray-600 leading-relaxed">
@@ -103,7 +74,7 @@ export default function Home() {
             </div>
 
             {/* 차별점 1-2 */}
-            <div className="bg-gray-50 p-8 rounded-[20px] border border-gray-200 hover:border-[#FF6B35] hover:shadow-lg transition duration-300 shadow-md">
+            <div className="bg-gray-50 p-8 rounded-lg border border-gray-200 hover:border-[#FF6B35] hover:shadow-lg transition duration-300">
               <div className="text-3xl mb-4">🎯</div>
               <h4 className="text-2xl font-bold mb-4 text-gray-900">남성분 특별 혜택</h4>
               <p className="text-gray-600 leading-relaxed">
@@ -112,7 +83,7 @@ export default function Home() {
             </div>
 
             {/* 차별점 2 */}
-            <div className="bg-gray-50 p-8 rounded-[20px] border border-gray-200 hover:border-[#FF6B35] hover:shadow-lg transition duration-300 shadow-md">
+            <div className="bg-gray-50 p-8 rounded-lg border border-gray-200 hover:border-[#FF6B35] hover:shadow-lg transition duration-300">
               <div className="text-3xl mb-4">✅</div>
               <h4 className="text-2xl font-bold mb-4 text-gray-900">아르바이트생 없는 모임</h4>
               <p className="text-gray-600 leading-relaxed">
@@ -121,16 +92,16 @@ export default function Home() {
             </div>
 
             {/* 차별점 3 */}
-            <div className="bg-gray-50 p-8 rounded-[20px] border border-gray-200 hover:border-[#FF6B35] hover:shadow-lg transition duration-300 shadow-md">
+            <div className="bg-gray-50 p-8 rounded-lg border border-gray-200 hover:border-[#FF6B35] hover:shadow-lg transition duration-300">
               <div className="text-3xl mb-4">🎁</div>
               <h4 className="text-2xl font-bold mb-4 text-gray-900">추가비용 없는 번호 제공</h4>
               <p className="text-gray-600 leading-relaxed">
-                일인당 한 명씩 필요하시다면, 상호 합의 하에 번호를 제공해드립니다. <span className="text-[#FF6B35] font-semibold">타 모임과 달리 추가비용이 전혀 없습니다.</span> 진정성 있는 만남을 위해 운영진이 중재해드립니다. <span className="text-[#FF6B35] font-semibold">단, 최종 선택을 하지 않은 여성 참여자에게는 제공되지 않습니다.</span>
+                일인당 한 명씩 필요하시다면, 상호 합의 하에 번호를 제공해드립니다. <span className="text-[#FF6B35] font-semibold">타 모임과 달리 추가비용이 전혀 없습니다.</span> 진정성 있는 만남을 위해 운영진이 중재해드립니다. 단, 최종 선택을 하지 않은 여성 참여자에게는 제공되지 않습니다.
               </p>
             </div>
 
             {/* 차별점 4 */}
-            <div className="bg-gray-50 p-8 rounded-[20px] border border-gray-200 hover:border-[#FF6B35] hover:shadow-lg transition duration-300 shadow-md">
+            <div className="bg-gray-50 p-8 rounded-lg border border-gray-200 hover:border-[#FF6B35] hover:shadow-lg transition duration-300">
               <div className="text-3xl mb-4">🎓</div>
               <h4 className="text-2xl font-bold mb-4 text-gray-900">넓은 인력풀</h4>
               <p className="text-gray-600 leading-relaxed">
@@ -139,15 +110,13 @@ export default function Home() {
             </div>
 
             {/* 차별점 5 */}
-            <div className="bg-gray-50 p-8 rounded-[20px] border border-gray-200 hover:border-[#FF6B35] hover:shadow-lg transition duration-300 shadow-md">
+            <div className="bg-gray-50 p-8 rounded-lg border border-gray-200 hover:border-[#FF6B35] hover:shadow-lg transition duration-300">
               <div className="text-3xl mb-4">💌</div>
               <h4 className="text-2xl font-bold mb-4 text-gray-900">사후관리 서비스</h4>
               <p className="text-gray-600 leading-relaxed">
                 모임이 끝난 후에도 인연의 끈이 이어질 수 있도록 소셜 브릿지 역할을 해드립니다. 아쉽게 짝을 만나지 못한 참여자들이 다른 모임분들과 연결될 수 있도록 도와주는 커뮤니티 케어 시스템입니다.
               </p>
-              <p className="text-gray-700 leading-relaxed mt-4 text-lg italic" style={{ fontFamily: 'NanumSquareRound, sans-serif' }}>
-                나만을 위한 특별한 인연, VERITAS가 끝까지 함께합니다
-              </p>
+              <p className="text-[#FF6B35] font-semibold mt-2">나만을 위한 특별한 인연, VERITAS가 끝까지 함께합니다</p>
             </div>
           </div>
         </div>
@@ -273,11 +242,11 @@ export default function Home() {
             모집 대상 & 참가비 안내
           </h2>
           
-          <div className="bg-gray-50 p-8 rounded-[20px] border border-gray-200 space-y-6 shadow-md">
+          <div className="bg-gray-50 p-8 rounded-lg border border-gray-200 space-y-6 shadow-sm">
             <div>
               <h3 className="text-2xl font-bold mb-4 text-[#FF6B35]">참가 자격</h3>
               <ul className="text-gray-600 space-y-2">
-                <li>• 미혼 남여 (사실혼관계 참여 불가)</li>
+                <li>• 기혼자 및 이혼자 참여 불가 (사실혼 참여불가)</li>
                 <li>• 대구 경북에서 일하고 있는 직장인 (재직증명서 또는 명함 인증 필수)</li>
                 <li>• 만 25세 이상</li>
                 <li>• 진정성 있는 만남을 원하시는 분</li>
@@ -286,9 +255,22 @@ export default function Home() {
             
             <div className="pt-6 border-t border-gray-200">
               <h3 className="text-2xl font-bold mb-4 text-[#FF6B35]">참가 비용</h3>
-              <div className="mb-4">
-                <p className="text-3xl font-bold text-gray-900 mb-2">남성 참가자: 49,000원</p>
-                <p className="text-3xl font-bold text-gray-900">여성 참여자: 39,000원</p>
+              <div className="mb-6">
+                <div className="text-center mb-4">
+                  <p className="text-sm text-gray-500 mb-2">안내가격</p>
+                  <div className="flex justify-center gap-6 text-lg text-gray-400">
+                    <span className="line-through">남성 70,000원</span>
+                    <span className="line-through">여성 50,000원</span>
+                  </div>
+                </div>
+                <div className="bg-gradient-to-r from-[#FF6B35] to-[#FF8C42] text-white p-6 rounded-lg text-center mb-4">
+                  <p className="text-lg font-semibold mb-3">🎉 오픈특가 이벤트 🎉</p>
+                  <p className="text-4xl font-bold mb-2">남성 참가자: 39,000원</p>
+                  <p className="text-4xl font-bold">여성 참여자: 19,000원</p>
+                </div>
+                <p className="text-center text-gray-600 text-sm italic">
+                  모집 기간으로 평소에 로테이션 소개팅 체험해보고 싶은 분들의 많은 참여 부탁드립니다!
+                </p>
               </div>
             </div>
           </div>
@@ -304,7 +286,7 @@ export default function Home() {
           
           <div className="space-y-6">
             {/* FAQ 1 */}
-            <div className="bg-white p-6 rounded-[20px] border border-gray-200 shadow-md">
+            <div className="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
               <h4 className="text-xl font-bold mb-3 text-[#FF6B35]">Q. 정말로 아르바이트생이 없나요?</h4>
               <p className="text-gray-600 leading-relaxed">
                 네, <span className="text-[#FF6B35] font-semibold">100% 결혼하고싶은 지인과 지인의 지인들 그리고 명함과 서류를 통해 증명된 사람들의 모임</span>입니다. 아르바이트생은 절대 없으며, 모든 참가자는 직장인 인증을 완료한 분들만으로 구성되어 있어 진정성 있는 만남을 보장합니다.
@@ -312,7 +294,7 @@ export default function Home() {
             </div>
 
             {/* FAQ 2 */}
-            <div className="bg-white p-6 rounded-[20px] border border-gray-200 shadow-md">
+            <div className="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
               <h4 className="text-xl font-bold mb-3 text-[#FF6B35]">Q. 참가비용 환급 문제</h4>
               <div className="text-gray-600 leading-relaxed space-y-2">
                 <p>취소 시점에 따라 환급 정책이 다릅니다:</p>
@@ -325,7 +307,7 @@ export default function Home() {
             </div>
 
             {/* FAQ 3 */}
-            <div className="bg-white p-6 rounded-[20px] border border-gray-200 shadow-md">
+            <div className="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
               <h4 className="text-xl font-bold mb-3 text-[#FF6B35]">Q. 연락처 제공은 무조건 되나요?</h4>
               <p className="text-gray-600 leading-relaxed">
                 아닙니다! 스토킹 등 불미스러운 일을 방지하기 위해 반드시 상대방이 '동의'했을 때만 제공! 안전하고 매너 있는 만남을 지향!
@@ -348,10 +330,10 @@ export default function Home() {
           </p>
           <div className="flex flex-col items-center gap-2">
             <a 
-              href="https://naver.me/G3P2Zipo" 
+              href="https://naver.me/5xapdBCq" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="inline-block bg-gradient-to-r from-[#FF6B35] to-[#FF8C42] hover:opacity-90 text-white font-bold py-4 px-10 rounded-full text-lg transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 animate-pulse hover:animate-none"
+              className="inline-block bg-gradient-to-r from-[#FF6B35] to-[#FF8C42] hover:opacity-90 text-white font-bold py-4 px-10 rounded-lg text-lg transition duration-300 shadow-lg hover:shadow-xl"
             >
               자격 확인하기
               <span className="block text-sm font-normal mt-1">선착순 마감</span>
@@ -364,7 +346,7 @@ export default function Home() {
       <section className="py-12 px-4 bg-gray-50 border-t border-gray-200">
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-gray-600 mb-2">문의사항이 있으시면 언제든지 연락주세요</p>
-          <div className="space-y-2">
+          <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
             <a 
               href="https://open.kakao.com/o/s4YGJB7h" 
               target="_blank"
@@ -373,16 +355,15 @@ export default function Home() {
             >
               카카오톡 오픈채팅으로 문의하기
             </a>
-            <div>
-              <a 
-                href="https://instagram.com/l__veritas" 
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-[#FF6B35] font-semibold hover:underline"
-              >
-                인스타그램: @l__veritas
-              </a>
-            </div>
+            <span className="hidden md:inline text-gray-400">|</span>
+            <a 
+              href="https://www.instagram.com/l__veritas" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#FF6B35] font-semibold hover:underline"
+            >
+              인스타그램: @l__veritas
+            </a>
           </div>
         </div>
       </section>
