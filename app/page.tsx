@@ -89,14 +89,21 @@ export default function Home() {
               <p className="text-gray-600 leading-relaxed">
                 <span className="text-[#FF6B35] font-semibold">아르바이트생은 절대 없습니다.</span> 모든 참가자는 직장인 인증을 완료한 분들만으로 구성되어 있어, 진정성 있는 만남을 보장합니다.
               </p>
+              <p className="text-gray-500 text-sm mt-2">※아르바이트생은 운영자가 돈을 주고 참가를 부탁한 사람을 말함</p>
             </div>
 
             {/* 차별점 3 */}
             <div className="bg-gray-50 p-8 rounded-lg border border-gray-200 hover:border-[#FF6B35] hover:shadow-lg transition duration-300">
               <div className="text-3xl mb-4">🎁</div>
               <h4 className="text-2xl font-bold mb-4 text-gray-900">추가비용 없는 번호 제공</h4>
+              <p className="text-gray-600 leading-relaxed mb-3">
+                상호 선택에 실패했더라도 한쪽에서 선택했다면, 상호 허락하에 번호 제공의 기회가 무료로 제공됩니다.
+              </p>
+              <p className="text-gray-600 leading-relaxed mb-3">
+                <span className="text-[#FF6B35] font-semibold">타 모임과 달리 추가비용이 전혀 없습니다.</span> 진정성 있는 만남을 위해 운영진이 중재해드리며, 안전하고 매너 있는 만남을 위해 상대방의 동의를 필수로 합니다.
+              </p>
               <p className="text-gray-600 leading-relaxed">
-                일인당 한 명씩 필요하시다면, 상호 합의 하에 번호를 제공해드립니다. <span className="text-[#FF6B35] font-semibold">타 모임과 달리 추가비용이 전혀 없습니다.</span> 진정성 있는 만남을 위해 운영진이 중재해드립니다. 단, 최종 선택을 하지 않은 여성 참여자에게는 제공되지 않습니다.
+                인연의 기회를 놓치지 않도록, 서로 마음이 맞는 분들께는 운영진이 적극적으로 연결을 도와드립니다.
               </p>
             </div>
 
@@ -202,8 +209,8 @@ export default function Home() {
                 7
               </div>
               <div className="flex-1">
-                <h4 className="text-2xl font-bold mb-2 text-gray-900">최종 선택</h4>
-                <p className="text-gray-600">마음에 드는 1~3순위 이성 기입 (선택 포기 가능)</p>
+                <h4 className="text-2xl font-bold mb-2 text-gray-900">최종 투표</h4>
+                <p className="text-gray-600">마음에 드는 이성 두 분 (선택 포기 가능)</p>
               </div>
             </div>
 
@@ -272,6 +279,66 @@ export default function Home() {
                   모집 기간으로 평소에 로테이션 소개팅 체험해보고 싶은 분들의 많은 참여 부탁드립니다!
                 </p>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Warning Section */}
+      <section className="py-20 px-4 bg-yellow-50 border-y border-yellow-200">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">
+            ⚠️ 주의사항 (꼭 읽어주세요!)
+          </h2>
+          
+          <div className="bg-white p-8 rounded-lg border-2 border-yellow-400 shadow-lg space-y-4">
+            <div className="flex gap-3 items-start">
+              <span className="text-2xl">📢</span>
+              <p className="text-gray-700 leading-relaxed flex-1">
+                원활한 매칭을 위해 일정이 조정될 수 있으며, 적절한 상대가 없을 경우 날짜 및 시간이 변경될 수 있습니다. (사전 개별 안내 예정)
+              </p>
+            </div>
+
+            <div className="flex gap-3 items-start">
+              <span className="text-2xl">🚫</span>
+              <p className="text-gray-700 leading-relaxed flex-1">
+                <span className="font-semibold text-[#FF6B35]">기혼자 및 이혼자 참여 불가:</span> 법적 미혼 상태인 분만 가능하며, 위반 시 민·형사적 책임이 따를 수 있습니다.
+              </p>
+            </div>
+
+            <div className="flex gap-3 items-start">
+              <span className="text-2xl">🛡️</span>
+              <p className="text-gray-700 leading-relaxed flex-1">
+                <span className="font-semibold text-[#FF6B35]">철저한 신원 확인:</span> 매칭을 위해 신분증, 직업/소득 관련 서류, 사진 등을 확인합니다. 제출 자료는 개인정보 보유기간 종료 후 즉시 폐기됩니다.
+              </p>
+            </div>
+
+            <div className="flex gap-3 items-start">
+              <span className="text-2xl">❌</span>
+              <p className="text-gray-700 leading-relaxed flex-1">
+                <span className="font-semibold text-[#FF6B35]">허위 정보 기재 금지:</span> 서류 조작 확인 시 즉시 퇴장 및 향후 참여 제한, 법적 책임이 따릅니다.
+              </p>
+            </div>
+
+            <div className="flex gap-3 items-start">
+              <span className="text-2xl">📸</span>
+              <p className="text-gray-700 leading-relaxed flex-1">
+                <span className="font-semibold text-[#FF6B35]">사진 촬영 안내:</span> 행사 중 홍보용 사진 촬영이 있을 수 있으나, 얼굴은 반드시 모자이크 처리됩니다. 촬영을 원치 않으시면 미리 말씀해 주세요!
+              </p>
+            </div>
+
+            <div className="flex gap-3 items-start">
+              <span className="text-2xl">⏰</span>
+              <p className="text-gray-700 leading-relaxed flex-1">
+                <span className="font-semibold text-[#FF6B35]">지각/노쇼 금지:</span> 시작 15분 전 도착 권장! 지각 또는 무단 불참 시 환불이 불가하며 타 참가자에게 피해를 줄 수 있습니다.
+              </p>
+            </div>
+
+            <div className="flex gap-3 items-start">
+              <span className="text-2xl">⚠️</span>
+              <p className="text-gray-700 leading-relaxed flex-1">
+                <span className="font-semibold text-[#FF6B35]">매너 필수:</span> 부적절한 언행이나 타인에게 불쾌감을 주는 행동 즉시 퇴장 조치됩니다.
+              </p>
             </div>
           </div>
         </div>
