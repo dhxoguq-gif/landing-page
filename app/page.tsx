@@ -17,22 +17,46 @@ export default function Home() {
       <section className="flex flex-col items-center justify-center min-h-screen px-4 py-20 relative overflow-hidden bg-gradient-to-b from-[#FAFAF8] to-white pt-24">
         <div className="max-w-4xl mx-auto text-center relative z-10">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight text-gray-900">
-            풋풋한 연애하고싶은<br />
             <span className="text-[#FF6B35]">집돌이 집순이들 모여라!</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-700 mb-8 max-w-3xl mx-auto">
             직장인 검증 100%. 부담은 0%.<br />
             오직 <span className="text-[#FF6B35] font-semibold">'만남'</span>에만 집중하세요!
           </p>
-          <div className="flex flex-col items-center gap-2">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-4 flex-wrap">
             <a 
               href="https://naver.me/5xapdBCq" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="inline-block bg-gradient-to-r from-[#FF6B35] to-[#FF8C42] hover:opacity-90 text-white font-bold py-4 px-10 rounded-lg text-lg transition duration-300 shadow-lg hover:shadow-xl"
+              className="inline-block bg-gradient-to-r from-[#FF6B35] to-[#FF8C42] hover:from-[#FF8C42] hover:to-[#FF6B35] text-white font-bold py-4 px-10 rounded-2xl text-lg transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105 transform active:scale-95"
             >
-              지금 바로 간단한 자격 확인하기
+              <span className="flex items-center justify-center gap-2">
+                ✨ 지금 바로 간단한 자격 확인하기
+              </span>
               <span className="block text-sm font-normal mt-1">선착순 마감</span>
+            </a>
+            <a 
+              href="https://open.kakao.com/o/s4YGJB7h" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-[#FEE500] hover:bg-[#FDD835] text-gray-900 font-bold py-4 px-8 rounded-2xl text-lg transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105 transform active:scale-95"
+            >
+              <span className="flex items-center justify-center gap-2">
+                💬 카카오톡 문의하기
+              </span>
+            </a>
+            <a 
+              href="https://www.instagram.com/l__veritas" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-gradient-to-r from-[#833AB4] via-[#FD1D1D] to-[#FCB045] hover:from-[#FCB045] hover:via-[#FD1D1D] hover:to-[#833AB4] text-white font-bold py-4 px-8 rounded-2xl text-lg transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105 transform active:scale-95"
+            >
+              <span className="flex flex-col items-center justify-center gap-1">
+                <span className="flex items-center gap-2">
+                  📸 인스타그램
+                </span>
+                <span className="text-sm font-normal">L-VERITAS</span>
+              </span>
             </a>
           </div>
         </div>
@@ -199,7 +223,11 @@ export default function Home() {
               </div>
               <div className="flex-1">
                 <h4 className="text-2xl font-bold mb-2 text-gray-900">파티 진행</h4>
-                <p className="text-gray-600">편안한 분위기에서 다양한 분들과 로테이션으로 만나보세요!</p>
+                <p className="text-gray-600 mb-2">편안한 분위기에서 다양한 분들과 로테이션으로 만나보세요!</p>
+                <ul className="text-gray-600 space-y-1 ml-2">
+                  <li>• <span className="font-semibold text-[#FF6B35]">ICE BREAKING TIME</span></li>
+                  <li>• <span className="font-semibold text-[#FF6B35]">1:1 로테이션 대화 TIME</span></li>
+                </ul>
               </div>
             </div>
 
@@ -266,14 +294,19 @@ export default function Home() {
                 <div className="text-center mb-4">
                   <p className="text-sm text-gray-500 mb-2">안내가격</p>
                   <div className="flex justify-center gap-6 text-lg text-gray-400">
-                    <span className="line-through">남성 70,000원</span>
+                    <span className="line-through">남성 50,000원</span>
                     <span className="line-through">여성 50,000원</span>
                   </div>
                 </div>
                 <div className="bg-gradient-to-r from-[#FF6B35] to-[#FF8C42] text-white p-6 rounded-lg text-center mb-4">
                   <p className="text-lg font-semibold mb-3">🎉 오픈특가 이벤트 🎉</p>
-                  <p className="text-4xl font-bold mb-2">남성 참가자: 39,000원</p>
-                  <p className="text-4xl font-bold">여성 참여자: 19,000원</p>
+                  <p className="text-4xl font-bold mb-2">남성 참가자: 35,000원</p>
+                  <p className="text-4xl font-bold mb-3">여성 참여자: 30,000원</p>
+                  <div className="mt-4 pt-4 border-t border-white/30">
+                    <p className="text-lg font-semibold mb-2">👭 여성 동반참여 특별 할인</p>
+                    <p className="text-xl font-bold mb-1">동반참여자 1인당 5,000원 할인</p>
+                    <p className="text-lg">최대 할인가 10,000원 → <span className="text-2xl font-bold">1인당 20,000원</span></p>
+                  </div>
                 </div>
                 <p className="text-center text-gray-600 text-sm italic">
                   모집 기간으로 평소에 로테이션 소개팅 체험해보고 싶은 분들의 많은 참여 부탁드립니다!
@@ -409,31 +442,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Contact Section */}
-      <section className="py-12 px-4 bg-gray-50 border-t border-gray-200">
-        <div className="max-w-4xl mx-auto text-center">
-          <p className="text-gray-600 mb-2">문의사항이 있으시면 언제든지 연락주세요</p>
-          <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
-            <a 
-              href="https://open.kakao.com/o/s4YGJB7h" 
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[#FF6B35] font-semibold hover:underline"
-            >
-              카카오톡 오픈채팅으로 문의하기
-            </a>
-            <span className="hidden md:inline text-gray-400">|</span>
-            <a 
-              href="https://www.instagram.com/l__veritas" 
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[#FF6B35] font-semibold hover:underline"
-            >
-              인스타그램: @l__veritas
-            </a>
-          </div>
-        </div>
-      </section>
     </main>
   );
 }
