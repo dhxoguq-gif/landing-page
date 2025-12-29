@@ -23,23 +23,23 @@ export default function Home() {
             직장인 검증 100%. 부담은 0%.<br />
             오직 <span className="text-[#FF6B35] font-semibold">'만남'</span>에만 집중하세요!
           </p>
-          <div className="flex flex-col md:flex-row items-center justify-center gap-4 flex-wrap">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-3 flex-wrap">
             <a 
               href="https://naver.me/5xapdBCq" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="inline-block bg-gradient-to-r from-[#FF6B35] to-[#FF8C42] hover:from-[#FF8C42] hover:to-[#FF6B35] text-white font-bold py-4 px-10 rounded-2xl text-lg transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105 transform active:scale-95"
+              className="inline-block bg-gradient-to-r from-[#FF6B35] to-[#FF8C42] hover:from-[#FF8C42] hover:to-[#FF6B35] text-white font-bold py-2.5 px-6 rounded-2xl text-base transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 transform active:scale-95"
             >
               <span className="flex items-center justify-center gap-2">
                 ✨ 지금 바로 간단한 자격 확인하기
               </span>
-              <span className="block text-sm font-normal mt-1">선착순 마감</span>
+              <span className="block text-xs font-normal mt-0.5">선착순 마감</span>
             </a>
             <a 
               href="https://open.kakao.com/o/s4YGJB7h" 
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-[#FEE500] hover:bg-[#FDD835] text-gray-900 font-bold py-4 px-8 rounded-2xl text-lg transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105 transform active:scale-95"
+              className="inline-block bg-[#FEE500] hover:bg-[#FDD835] text-gray-900 font-bold py-2.5 px-6 rounded-2xl text-base transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 transform active:scale-95"
             >
               <span className="flex items-center justify-center gap-2">
                 💬 카카오톡 문의하기
@@ -49,13 +49,13 @@ export default function Home() {
               href="https://www.instagram.com/l__veritas" 
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-gradient-to-r from-[#833AB4] via-[#FD1D1D] to-[#FCB045] hover:from-[#FCB045] hover:via-[#FD1D1D] hover:to-[#833AB4] text-white font-bold py-4 px-8 rounded-2xl text-lg transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105 transform active:scale-95"
+              className="inline-block bg-gradient-to-r from-[#833AB4] via-[#FD1D1D] to-[#FCB045] hover:from-[#FCB045] hover:via-[#FD1D1D] hover:to-[#833AB4] text-white font-bold py-2.5 px-6 rounded-2xl text-base transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 transform active:scale-95"
             >
-              <span className="flex flex-col items-center justify-center gap-1">
-                <span className="flex items-center gap-2">
+              <span className="flex flex-col items-center justify-center gap-0.5">
+                <span className="flex items-center gap-2 text-base">
                   📸 인스타그램
                 </span>
-                <span className="text-sm font-normal">L-VERITAS</span>
+                <span className="text-xs font-normal">L-VERITAS</span>
               </span>
             </a>
           </div>
