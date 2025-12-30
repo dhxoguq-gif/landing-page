@@ -50,7 +50,6 @@ export default function Home() {
               <span className="flex items-center justify-center gap-2">
                 ✨ 지금 바로 간단한 자격 확인하기
               </span>
-              <span className="block text-xs font-normal mt-1">선착순 마감</span>
             </a>
             <a 
               href="https://open.kakao.com/o/s4YGJB7h" 
@@ -79,23 +78,80 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Pain Points Section */}
-      <section className="py-12 sm:py-16 md:py-20 px-4 bg-white relative">
-        <div className="absolute top-10 left-5 w-20 h-20 opacity-10 hidden md:block">
+      {/* VERITAS Promise Section */}
+      <section className="py-16 sm:py-20 md:py-24 px-4 bg-gradient-to-b from-white via-sky-50/30 to-white relative overflow-hidden">
+        {/* Decorative Elements */}
+        <div className="absolute top-10 right-10 w-32 h-32 opacity-10 hidden md:block">
           <svg viewBox="0 0 100 100" className="w-full h-full text-sky-400">
-            <circle cx="50" cy="50" r="35" fill="none" stroke="currentColor" strokeWidth="2"/>
-            <path d="M 20 50 Q 35 30 50 50 Q 65 70 80 50" fill="none" stroke="currentColor" strokeWidth="1.5"/>
+            <circle cx="50" cy="50" r="40" fill="none" stroke="currentColor" strokeWidth="2" strokeDasharray="4,4"/>
+            <circle cx="50" cy="50" r="25" fill="none" stroke="currentColor" strokeWidth="1.5"/>
+            <path d="M 50 10 L 50 50" fill="none" stroke="currentColor" strokeWidth="2"/>
+            <path d="M 50 50 L 90 50" fill="none" stroke="currentColor" strokeWidth="2"/>
           </svg>
         </div>
-        <div className="max-w-4xl mx-auto text-center relative z-10">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold mb-6 sm:mb-8 text-gray-800 px-2">
-            이런 고민 있으신가요?
+        <div className="absolute bottom-10 left-10 w-28 h-28 opacity-10 hidden md:block">
+          <svg viewBox="0 0 100 100" className="w-full h-full text-blue-400">
+            <circle cx="50" cy="50" r="35" fill="none" stroke="currentColor" strokeWidth="2"/>
+            <circle cx="30" cy="30" r="5" fill="currentColor" opacity="0.6"/>
+            <circle cx="70" cy="30" r="5" fill="currentColor" opacity="0.6"/>
+            <circle cx="30" cy="70" r="5" fill="currentColor" opacity="0.6"/>
+            <circle cx="70" cy="70" r="5" fill="currentColor" opacity="0.6"/>
+          </svg>
+        </div>
+        
+        <div className="max-w-5xl mx-auto text-center relative z-10">
+          <div className="inline-block mb-6 sm:mb-8">
+            <span className="text-xs sm:text-sm font-semibold text-sky-500 uppercase tracking-wider px-4 py-2 bg-sky-50 rounded-full border border-sky-200">
+              핵심 가치
+            </span>
+          </div>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 sm:mb-8 text-gray-900 px-2">
+            <span className="bg-gradient-to-r from-sky-600 via-blue-600 to-sky-600 bg-clip-text text-transparent">
+              VERITAS만의 약속
+            </span>
           </h2>
-          <div className="space-y-4 sm:space-y-6 text-base sm:text-lg text-gray-600 font-light px-2">
-            <p>비싼 참가비를 냈는데, 마음에 드는 사람이 없을까 봐 걱정되시나요?</p>
-            <p>시간과 돈을 투자했는데 만족스럽지 않은 결과가 나올까 두려우신가요?</p>
-            <p>진정성 있는 만남을 찾고 싶은데, 부담스러운 비용 때문에 망설여지시나요?</p>
-            <p>지인 소개팅은 선택의 폭이 좁고, 클럽이나 술집에서 만남은 너무 가볍고, 그렇다고 아무나 만나기엔 망설여지시나요?</p>
+          
+          <div className="bg-white/90 backdrop-blur-sm rounded-2xl sm:rounded-3xl border-2 border-sky-200/50 shadow-xl p-6 sm:p-8 md:p-10 lg:p-12 max-w-4xl mx-auto">
+            <div className="space-y-4 sm:space-y-5 md:space-y-6">
+              <div className="flex items-start gap-3 sm:gap-4">
+                <div className="flex-shrink-0 w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-gradient-to-r from-sky-400 to-blue-500 flex items-center justify-center mt-1">
+                  <svg className="w-4 h-4 sm:w-5 sm:h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M5 13l4 4L19 7"/>
+                  </svg>
+                </div>
+                <p className="text-base sm:text-lg md:text-xl text-gray-700 leading-relaxed text-left flex-1 font-medium">
+                  본 로테이션 소개팅은 최고의 매칭 만족도를 위해 잦은 모임을 진행하지 않습니다.
+                </p>
+              </div>
+              
+              <div className="flex items-start gap-3 sm:gap-4">
+                <div className="flex-shrink-0 w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-gradient-to-r from-sky-400 to-blue-500 flex items-center justify-center mt-1">
+                  <svg className="w-4 h-4 sm:w-5 sm:h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M5 13l4 4L19 7"/>
+                  </svg>
+                </div>
+                <p className="text-base sm:text-lg md:text-xl text-gray-700 leading-relaxed text-left flex-1 font-medium">
+                  한 달에 단 <span className="text-2xl sm:text-3xl md:text-4xl font-bold text-sky-600">4회</span>, 매 회차마다 <span className="text-sky-600 font-bold">매칭 퀄리티를 최우선</span>으로 고려한 맞춤형 소개팅만을 진행합니다.
+                </p>
+              </div>
+              
+              <div className="flex items-start gap-3 sm:gap-4 mt-4 sm:mt-5">
+                <div className="flex-shrink-0 w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-gradient-to-r from-sky-400 to-blue-500 flex items-center justify-center mt-1">
+                  <svg className="w-4 h-4 sm:w-5 sm:h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M5 13l4 4L19 7"/>
+                  </svg>
+                </div>
+                <p className="text-base sm:text-lg md:text-xl text-gray-700 leading-relaxed text-left flex-1 font-medium">
+                  이러한 점 때문에 <span className="text-sky-600 font-bold">대기시간이 길어질 수 있다는 점</span>을 양해 부탁드립니다.
+                </p>
+              </div>
+            </div>
+            
+            <div className="mt-6 sm:mt-8 pt-6 sm:pt-8 border-t border-sky-100">
+              <p className="text-sm sm:text-base text-gray-500 italic">
+                ✨ 진정성 있는 만남을 위한 VERITAS의 약속 ✨
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -129,7 +185,7 @@ export default function Home() {
               <div className="text-2xl sm:text-3xl mb-3 sm:mb-4">💝</div>
               <h4 className="text-lg sm:text-xl md:text-2xl font-semibold mb-3 sm:mb-4 text-gray-900">여성분 특별 혜택</h4>
               <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
-                최종 선택이 없을 시, <span className="text-gray-900 font-semibold">여성분들의 참가비 70%를 환급</span>해드립니다. 다른 모임과 달리 진정성 있는 만남을 위해 특별히 준비한 혜택입니다.
+                최종 선택이 없을 시, <span className="text-gray-900 font-semibold">여성분들의 참가비 50%를 환급</span>해드립니다. 다른 모임과 달리 진정성 있는 만남을 위해 특별히 준비한 혜택입니다.
               </p>
             </div>
 
@@ -152,28 +208,24 @@ export default function Home() {
               <p className="text-gray-400 text-xs sm:text-sm mt-2">※아르바이트생은 운영자가 돈을 주고 참가를 부탁한 사람을 말함</p>
             </div>
 
-            {/* 차별점 3 */}
-            <div className="bg-white/70 p-5 sm:p-6 md:p-8 rounded-xl sm:rounded-2xl border border-sky-100 hover:border-sky-200 hover:shadow-md transition-all duration-300 backdrop-blur-sm">
-              <div className="text-2xl sm:text-3xl mb-3 sm:mb-4">🎁</div>
-              <h4 className="text-lg sm:text-xl md:text-2xl font-semibold mb-3 sm:mb-4 text-gray-900">추가비용 없는 번호 제공</h4>
-              <p className="text-sm sm:text-base text-gray-600 leading-relaxed mb-2 sm:mb-3">
-                상호 선택에 실패했더라도 한쪽에서 선택했다면, 상호 허락하에 번호 제공의 기회가 무료로 제공됩니다.
-              </p>
-              <p className="text-sm sm:text-base text-gray-600 leading-relaxed mb-2 sm:mb-3">
-                <span className="text-gray-900 font-semibold">타 모임과 달리 추가비용이 전혀 없습니다.</span> 진정성 있는 만남을 위해 운영진이 중재해드리며, 안전하고 매너 있는 만남을 위해 상대방의 동의를 필수로 합니다.
-              </p>
-              <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
-                인연의 기회를 놓치지 않도록, 서로 마음이 맞는 분들께는 운영진이 적극적으로 연결을 도와드립니다.
-              </p>
-            </div>
-
             {/* 차별점 4 */}
             <div className="bg-white/70 p-5 sm:p-6 md:p-8 rounded-xl sm:rounded-2xl border border-sky-100 hover:border-sky-200 hover:shadow-md transition-all duration-300 backdrop-blur-sm">
               <div className="text-2xl sm:text-3xl mb-3 sm:mb-4">🎓</div>
               <h4 className="text-lg sm:text-xl md:text-2xl font-semibold mb-3 sm:mb-4 text-gray-900">넓은 인력풀</h4>
-              <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
-                <span className="text-gray-900 font-semibold">영남대학교, 경북대학교 출신 운영자들</span>의 넓은 인력풀을 통해 다양한 분들과의 만남을 제공합니다. 다양한 직업과 배경을 가진 분들과의 만남이 가능합니다.
-              </p>
+              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 items-center sm:items-start mb-3 sm:mb-4">
+                <div className="flex-shrink-0">
+                  <div className="w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 rounded-2xl bg-gradient-to-br from-sky-100 to-blue-100 border-2 border-sky-200 shadow-lg flex items-center justify-center overflow-hidden hover:scale-105 transition-all duration-300">
+                    <img 
+                      src="/KakaoTalk_20251230_222633340.jpg" 
+                      alt="졸업 사진" 
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                </div>
+                <p className="text-sm sm:text-base text-gray-600 leading-relaxed flex-1">
+                  <span className="text-gray-900 font-semibold">영남대학교, 경북대학교 출신 운영자들</span>의 넓은 인력풀을 통해 다양한 분들과의 만남을 제공합니다. 다양한 직업과 배경을 가진 분들과의 만남이 가능합니다.
+                </p>
+              </div>
             </div>
 
             {/* 차별점 5 */}
@@ -360,8 +412,8 @@ export default function Home() {
               <h3 className="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4 text-gray-800">참가 자격</h3>
               <ul className="text-sm sm:text-base text-gray-600 space-y-1.5 sm:space-y-2">
                 <li>• 기혼자 및 이혼자 참여 불가 (사실혼 참여불가)</li>
-                <li>• 대구 경북에서 일하고 있는 직장인 (재직증명서 또는 명함 인증 필수)</li>
-                <li>• 만 25세 이상</li>
+                <li>• 대구에서 거주하고 있거나 거주할 예정인 직장인 (재직증명서 또는 명함 인증 필수)</li>
+                <li>• (남) 1986 ~ 2002년생 / (여) 1986 ~ 2005년생</li>
                 <li>• 진정성 있는 만남을 원하시는 분</li>
               </ul>
             </div>
