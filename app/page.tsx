@@ -92,7 +92,7 @@ export default function Home() {
       </section>
 
       {/* VERITAS Promise Section */}
-      <section className="py-16 sm:py-20 md:py-24 px-4 bg-gradient-to-b from-white via-sky-50/30 to-white relative overflow-hidden">
+      <section className="py-8 sm:py-12 md:py-16 px-4 bg-gradient-to-b from-white via-sky-50/30 to-white relative overflow-hidden">
         {/* Decorative Elements */}
         <div className="absolute top-10 right-10 w-32 h-32 opacity-10 hidden md:block">
           <svg viewBox="0 0 100 100" className="w-full h-full text-sky-400">
@@ -170,7 +170,7 @@ export default function Home() {
       </section>
 
       {/* Differentiation Section */}
-      <section className="py-12 sm:py-16 md:py-20 px-4 bg-sky-50/20 relative overflow-hidden">
+      <section className="py-8 sm:py-12 md:py-16 px-4 bg-sky-50/20 relative overflow-hidden">
         <div className="absolute top-20 right-20 w-40 h-40 opacity-10 hidden lg:block">
           <svg viewBox="0 0 120 120" className="w-full h-full text-sky-400">
             <circle cx="60" cy="60" r="50" fill="none" stroke="currentColor" strokeWidth="2" strokeDasharray="5,5"/>
