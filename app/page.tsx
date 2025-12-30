@@ -75,21 +75,21 @@ export default function Home() {
               </span>
             </a>
           </div>
-          
-          {/* Scroll Hint */}
-          <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce flex flex-col items-center gap-2 opacity-70">
-            <span className="text-xs sm:text-sm text-gray-500 font-medium">더 알아보기</span>
-            <svg 
-              className="w-6 h-6 sm:w-8 sm:h-8 text-sky-400" 
-              fill="none" 
-              stroke="currentColor" 
-              viewBox="0 0 24 24"
-            >
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-            </svg>
-          </div>
         </div>
       </section>
+
+      {/* Scroll Hint - Between Hero and VERITAS Promise */}
+      <div className="flex flex-col items-center justify-center py-8 sm:py-12 gap-2 opacity-70">
+        <span className="text-xs sm:text-sm text-gray-500 font-medium">더 알아보기</span>
+        <svg 
+          className="w-6 h-6 sm:w-8 sm:h-8 text-sky-400 animate-bounce" 
+          fill="none" 
+          stroke="currentColor" 
+          viewBox="0 0 24 24"
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+        </svg>
+      </div>
 
       {/* VERITAS Promise Section */}
       <section className="py-8 sm:py-12 md:py-16 px-4 bg-gradient-to-b from-white via-sky-50/30 to-white relative overflow-hidden">
