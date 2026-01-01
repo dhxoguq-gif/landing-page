@@ -14,25 +14,7 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section className="flex flex-col items-center justify-center min-h-screen px-4 py-12 sm:py-20 relative overflow-hidden bg-gradient-to-b from-sky-50/20 via-blue-50/10 to-white pt-20 sm:pt-24">
-        {/* Decorative Line Art - Rotation */}
-        <div className="absolute top-20 right-10 w-24 h-24 sm:w-32 sm:h-32 opacity-20 hidden md:block">
-          <svg viewBox="0 0 100 100" className="w-full h-full text-sky-400">
-            <circle cx="50" cy="50" r="40" fill="none" stroke="currentColor" strokeWidth="1.5" strokeDasharray="3,3"/>
-            <circle cx="30" cy="30" r="8" fill="none" stroke="currentColor" strokeWidth="2"/>
-            <circle cx="70" cy="30" r="8" fill="none" stroke="currentColor" strokeWidth="2"/>
-            <circle cx="30" cy="70" r="8" fill="none" stroke="currentColor" strokeWidth="2"/>
-            <circle cx="70" cy="70" r="8" fill="none" stroke="currentColor" strokeWidth="2"/>
-            <path d="M 30 30 Q 50 50 70 30" fill="none" stroke="currentColor" strokeWidth="1" opacity="0.5"/>
-            <path d="M 70 30 Q 50 50 70 70" fill="none" stroke="currentColor" strokeWidth="1" opacity="0.5"/>
-          </svg>
-        </div>
-        <div className="absolute bottom-20 left-10 w-24 h-24 opacity-15 hidden md:block">
-          <svg viewBox="0 0 100 100" className="w-full h-full text-blue-400">
-            <path d="M 50 20 L 70 50 L 50 80 L 30 50 Z" fill="none" stroke="currentColor" strokeWidth="2"/>
-            <circle cx="50" cy="50" r="15" fill="none" stroke="currentColor" strokeWidth="1.5"/>
-          </svg>
-        </div>
+      <section className="flex flex-col items-center justify-center min-h-screen px-4 pt-20 sm:pt-24 pb-0 relative overflow-hidden bg-gradient-to-b from-sky-50/20 via-blue-50/10 to-white">
         <div className="max-w-4xl mx-auto text-center relative z-10">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mb-4 sm:mb-6 leading-tight text-gray-800 px-2">
             <span className="text-gray-900">집돌이 집순이들 모여라!</span>
@@ -79,7 +61,7 @@ export default function Home() {
       </section>
 
       {/* Scroll Hint - Between Hero and VERITAS Promise */}
-      <div className="flex flex-col items-center justify-center py-8 sm:py-12 gap-2 opacity-70">
+      <div className="flex flex-col items-center justify-center pt-0 pb-2 sm:pb-3 gap-2 opacity-70">
         <span className="text-xs sm:text-sm text-gray-500 font-medium">더 알아보기</span>
         <svg 
           className="w-6 h-6 sm:w-8 sm:h-8 text-sky-400 animate-bounce" 
@@ -93,25 +75,6 @@ export default function Home() {
 
       {/* VERITAS Promise Section */}
       <section className="py-8 sm:py-12 md:py-16 px-4 bg-gradient-to-b from-white via-sky-50/30 to-white relative overflow-hidden">
-        {/* Decorative Elements */}
-        <div className="absolute top-10 right-10 w-32 h-32 opacity-10 hidden md:block">
-          <svg viewBox="0 0 100 100" className="w-full h-full text-sky-400">
-            <circle cx="50" cy="50" r="40" fill="none" stroke="currentColor" strokeWidth="2" strokeDasharray="4,4"/>
-            <circle cx="50" cy="50" r="25" fill="none" stroke="currentColor" strokeWidth="1.5"/>
-            <path d="M 50 10 L 50 50" fill="none" stroke="currentColor" strokeWidth="2"/>
-            <path d="M 50 50 L 90 50" fill="none" stroke="currentColor" strokeWidth="2"/>
-          </svg>
-        </div>
-        <div className="absolute bottom-10 left-10 w-28 h-28 opacity-10 hidden md:block">
-          <svg viewBox="0 0 100 100" className="w-full h-full text-blue-400">
-            <circle cx="50" cy="50" r="35" fill="none" stroke="currentColor" strokeWidth="2"/>
-            <circle cx="30" cy="30" r="5" fill="currentColor" opacity="0.6"/>
-            <circle cx="70" cy="30" r="5" fill="currentColor" opacity="0.6"/>
-            <circle cx="30" cy="70" r="5" fill="currentColor" opacity="0.6"/>
-            <circle cx="70" cy="70" r="5" fill="currentColor" opacity="0.6"/>
-          </svg>
-        </div>
-        
         <div className="max-w-5xl mx-auto text-center relative z-10">
           <div className="inline-block mb-6 sm:mb-8">
             <span className="text-xs sm:text-sm font-semibold text-sky-500 uppercase tracking-wider px-4 py-2 bg-sky-50 rounded-full border border-sky-200">
@@ -171,19 +134,6 @@ export default function Home() {
 
       {/* Differentiation Section */}
       <section className="py-8 sm:py-12 md:py-16 px-4 bg-sky-50/20 relative overflow-hidden">
-        <div className="absolute top-20 right-20 w-40 h-40 opacity-10 hidden lg:block">
-          <svg viewBox="0 0 120 120" className="w-full h-full text-sky-400">
-            <circle cx="60" cy="60" r="50" fill="none" stroke="currentColor" strokeWidth="2" strokeDasharray="5,5"/>
-            <circle cx="40" cy="40" r="6" fill="none" stroke="currentColor" strokeWidth="2"/>
-            <circle cx="80" cy="40" r="6" fill="none" stroke="currentColor" strokeWidth="2"/>
-            <circle cx="40" cy="80" r="6" fill="none" stroke="currentColor" strokeWidth="2"/>
-            <circle cx="80" cy="80" r="6" fill="none" stroke="currentColor" strokeWidth="2"/>
-            <path d="M 40 40 Q 60 50 80 40" fill="none" stroke="currentColor" strokeWidth="1.5" opacity="0.6"/>
-            <path d="M 80 40 Q 60 60 80 80" fill="none" stroke="currentColor" strokeWidth="1.5" opacity="0.6"/>
-            <path d="M 80 80 Q 60 70 40 80" fill="none" stroke="currentColor" strokeWidth="1.5" opacity="0.6"/>
-            <path d="M 40 80 Q 60 50 40 40" fill="none" stroke="currentColor" strokeWidth="1.5" opacity="0.6"/>
-          </svg>
-        </div>
         <div className="max-w-6xl mx-auto relative z-10">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-center mb-3 sm:mb-4 text-gray-800 px-2">
             다른 로테이션 모임과의
@@ -202,7 +152,7 @@ export default function Home() {
               </p>
             </div>
 
-            {/* 차별점 1-2 */}
+            {/* 차별점 2 */}
             <div className="bg-white/70 p-5 sm:p-6 md:p-8 rounded-xl sm:rounded-2xl border border-sky-100 hover:border-sky-200 hover:shadow-md transition-all duration-300 backdrop-blur-sm">
               <div className="text-2xl sm:text-3xl mb-3 sm:mb-4">🎯</div>
               <h4 className="text-lg sm:text-xl md:text-2xl font-semibold mb-3 sm:mb-4 text-gray-900">남성분 특별 혜택</h4>
@@ -211,7 +161,7 @@ export default function Home() {
               </p>
             </div>
 
-            {/* 차별점 2 */}
+            {/* 차별점 3 */}
             <div className="bg-white/70 p-5 sm:p-6 md:p-8 rounded-xl sm:rounded-2xl border border-sky-100 hover:border-sky-200 hover:shadow-md transition-all duration-300 backdrop-blur-sm">
               <div className="text-2xl sm:text-3xl mb-3 sm:mb-4">✅</div>
               <h4 className="text-lg sm:text-xl md:text-2xl font-semibold mb-3 sm:mb-4 text-gray-900">아르바이트생 없는 모임</h4>
@@ -236,7 +186,7 @@ export default function Home() {
                   </div>
                 </div>
                 <p className="text-sm sm:text-base text-gray-600 leading-relaxed flex-1">
-                  <span className="text-gray-900 font-semibold">영남대학교, 경북대학교 출신 운영자들</span>의 넓은 인력풀을 통해 다양한 분들과의 만남을 제공합니다. 다양한 직업과 배경을 가진 분들과의 만남이 가능합니다.
+                  <span className="text-gray-900 font-semibold">경희대학교, 경북대학교 출신 운영자들</span>의 넓은 인력풀을 통해 다양한 분들과의 만남을 제공합니다. 다양한 직업과 배경을 가진 분들과의 만남이 가능합니다.
                 </p>
               </div>
             </div>
@@ -256,29 +206,6 @@ export default function Home() {
 
       {/* How it Works Section */}
       <section className="py-12 sm:py-16 md:py-20 px-4 bg-white relative">
-        <div className="absolute top-10 right-10 w-32 h-32 opacity-10 hidden md:block">
-          <svg viewBox="0 0 100 100" className="w-full h-full text-blue-400">
-            <circle cx="50" cy="50" r="40" fill="none" stroke="currentColor" strokeWidth="2"/>
-            <circle cx="30" cy="30" r="5" fill="currentColor" opacity="0.6"/>
-            <circle cx="70" cy="30" r="5" fill="currentColor" opacity="0.6"/>
-            <circle cx="30" cy="70" r="5" fill="currentColor" opacity="0.6"/>
-            <circle cx="70" cy="70" r="5" fill="currentColor" opacity="0.6"/>
-            <path d="M 30 30 L 50 50 L 70 30" fill="none" stroke="currentColor" strokeWidth="1.5" opacity="0.4"/>
-            <path d="M 70 30 L 50 50 L 70 70" fill="none" stroke="currentColor" strokeWidth="1.5" opacity="0.4"/>
-            <path d="M 70 70 L 50 50 L 30 70" fill="none" stroke="currentColor" strokeWidth="1.5" opacity="0.4"/>
-            <path d="M 30 70 L 50 50 L 30 30" fill="none" stroke="currentColor" strokeWidth="1.5" opacity="0.4"/>
-          </svg>
-        </div>
-        <div className="absolute bottom-20 left-5 w-28 h-28 opacity-10 hidden md:block">
-          <svg viewBox="0 0 100 100" className="w-full h-full text-sky-400">
-            <path d="M 50 20 L 70 50 L 50 80 L 30 50 Z" fill="none" stroke="currentColor" strokeWidth="2"/>
-            <circle cx="50" cy="50" r="8" fill="none" stroke="currentColor" strokeWidth="1.5"/>
-            <path d="M 50 20 L 50 50" fill="none" stroke="currentColor" strokeWidth="1" opacity="0.5"/>
-            <path d="M 70 50 L 50 50" fill="none" stroke="currentColor" strokeWidth="1" opacity="0.5"/>
-            <path d="M 50 80 L 50 50" fill="none" stroke="currentColor" strokeWidth="1" opacity="0.5"/>
-            <path d="M 30 50 L 50 50" fill="none" stroke="currentColor" strokeWidth="1" opacity="0.5"/>
-          </svg>
-        </div>
         <div className="max-w-5xl mx-auto relative z-10">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-center mb-8 sm:mb-12 md:mb-16 text-gray-800 px-2">
             진행 프로세스
@@ -348,17 +275,6 @@ export default function Home() {
               <div className="flex-1">
                 <h4 className="text-lg sm:text-xl md:text-2xl font-semibold mb-1 sm:mb-2 text-gray-800">파티 진행</h4>
                 <p className="text-sm sm:text-base text-gray-600 mb-2 font-light">편안한 분위기에서 다양한 분들과 로테이션으로 만나보세요!</p>
-                <div className="flex items-center gap-2 sm:gap-3 mb-2 sm:mb-3">
-                  <div className="w-20 h-12 sm:w-24 sm:h-16 opacity-30">
-                    <svg viewBox="0 0 100 60" className="w-full h-full text-sky-400">
-                      <circle cx="20" cy="30" r="8" fill="none" stroke="currentColor" strokeWidth="2"/>
-                      <circle cx="50" cy="30" r="8" fill="none" stroke="currentColor" strokeWidth="2"/>
-                      <circle cx="80" cy="30" r="8" fill="none" stroke="currentColor" strokeWidth="2"/>
-                      <path d="M 28 30 L 42 30" fill="none" stroke="currentColor" strokeWidth="1.5" opacity="0.6"/>
-                      <path d="M 58 30 L 72 30" fill="none" stroke="currentColor" strokeWidth="1.5" opacity="0.6"/>
-                    </svg>
-                  </div>
-                </div>
                 <ul className="text-sm sm:text-base text-gray-600 space-y-1 ml-2 font-light">
                   <li>• <span className="font-medium text-gray-800">ICE BREAKING TIME</span></li>
                   <li>• <span className="font-medium text-gray-800">1:1 로테이션 대화 TIME</span></li>
@@ -407,14 +323,6 @@ export default function Home() {
 
       {/* Info Section */}
       <section className="py-12 sm:py-16 md:py-20 px-4 bg-sky-50/20 relative">
-        <div className="absolute top-5 right-5 w-24 h-24 opacity-10 hidden md:block">
-          <svg viewBox="0 0 100 100" className="w-full h-full text-blue-400">
-            <circle cx="50" cy="50" r="35" fill="none" stroke="currentColor" strokeWidth="2"/>
-            <path d="M 50 15 L 50 50" fill="none" stroke="currentColor" strokeWidth="2"/>
-            <path d="M 50 50 L 85 50" fill="none" stroke="currentColor" strokeWidth="2"/>
-            <circle cx="50" cy="50" r="5" fill="currentColor"/>
-          </svg>
-        </div>
         <div className="max-w-4xl mx-auto relative z-10">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-center mb-6 sm:mb-8 md:mb-12 text-gray-800 px-2">
             모집 대상 & 참가비 안내
@@ -562,30 +470,6 @@ export default function Home() {
 
       {/* Closing CTA Section */}
       <section className="py-12 sm:py-16 md:py-20 px-4 bg-gradient-to-b from-sky-50/20 to-white relative overflow-hidden">
-        <div className="absolute top-10 left-10 w-36 h-36 opacity-10 hidden md:block">
-          <svg viewBox="0 0 120 120" className="w-full h-full text-sky-400">
-            <circle cx="60" cy="60" r="45" fill="none" stroke="currentColor" strokeWidth="2" strokeDasharray="4,4"/>
-            <circle cx="35" cy="35" r="6" fill="none" stroke="currentColor" strokeWidth="2"/>
-            <circle cx="85" cy="35" r="6" fill="none" stroke="currentColor" strokeWidth="2"/>
-            <circle cx="35" cy="85" r="6" fill="none" stroke="currentColor" strokeWidth="2"/>
-            <circle cx="85" cy="85" r="6" fill="none" stroke="currentColor" strokeWidth="2"/>
-            <path d="M 35 35 Q 60 50 85 35" fill="none" stroke="currentColor" strokeWidth="1.5" opacity="0.5"/>
-            <path d="M 85 35 Q 60 60 85 85" fill="none" stroke="currentColor" strokeWidth="1.5" opacity="0.5"/>
-            <path d="M 85 85 Q 60 70 35 85" fill="none" stroke="currentColor" strokeWidth="1.5" opacity="0.5"/>
-            <path d="M 35 85 Q 60 50 35 35" fill="none" stroke="currentColor" strokeWidth="1.5" opacity="0.5"/>
-            <circle cx="60" cy="60" r="3" fill="currentColor" opacity="0.6"/>
-          </svg>
-        </div>
-        <div className="absolute bottom-10 right-10 w-28 h-28 opacity-10 hidden md:block">
-          <svg viewBox="0 0 100 100" className="w-full h-full text-blue-400">
-            <path d="M 50 20 Q 70 30 80 50 Q 70 70 50 80 Q 30 70 20 50 Q 30 30 50 20" fill="none" stroke="currentColor" strokeWidth="2"/>
-            <circle cx="50" cy="50" r="8" fill="none" stroke="currentColor" strokeWidth="1.5"/>
-            <path d="M 50 20 L 50 50" fill="none" stroke="currentColor" strokeWidth="1" opacity="0.5"/>
-            <path d="M 80 50 L 50 50" fill="none" stroke="currentColor" strokeWidth="1" opacity="0.5"/>
-            <path d="M 50 80 L 50 50" fill="none" stroke="currentColor" strokeWidth="1" opacity="0.5"/>
-            <path d="M 20 50 L 50 50" fill="none" stroke="currentColor" strokeWidth="1" opacity="0.5"/>
-          </svg>
-        </div>
         <div className="max-w-4xl mx-auto text-center relative z-10">
           <p className="text-base sm:text-lg md:text-xl text-gray-600 mb-6 sm:mb-8 leading-relaxed font-light px-2">
             개인의 프라이버시가 중요시되는 세상에서<br />
@@ -608,7 +492,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
     </main>
   );
 }
