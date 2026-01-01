@@ -202,7 +202,7 @@ export default function Home() {
                   </div>
                 </div>
                 <p className="text-sm sm:text-base text-gray-600 leading-relaxed flex-1">
-                  <span className="text-gray-900 font-semibold">경희대학교, 경북대학교 출신 운영자들</span>의 넓은 인력풀을 통해 다양한 분들과의 만남을 제공합니다. 다양한 직업과 배경을 가진 분들과의 만남이 가능합니다.
+                  <span className="text-gray-900 font-semibold">영남대학교, 경북대학교 출신 운영자들</span>의 넓은 인력풀을 통해 다양한 분들과의 만남을 제공합니다. 다양한 직업과 배경을 가진 분들과의 만남이 가능합니다.
                 </p>
               </div>
             </div>
