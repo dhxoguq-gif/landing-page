@@ -1,3 +1,5 @@
+'use client';
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-sky-50/30 via-blue-50/20 to-white text-gray-900">
@@ -56,25 +58,33 @@ export default function Home() {
                 <span className="text-xs font-normal">L-VERITAS</span>
               </span>
             </a>
+            <button
+              onClick={() => {
+                const element = document.getElementById('veritas-promise');
+                if (element) {
+                  element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+              }}
+              className="inline-block bg-sky-100 hover:bg-sky-200 text-sky-600 font-medium py-3.5 px-8 rounded-full text-sm sm:text-base w-full sm:w-auto transition-all duration-300 shadow-sm hover:shadow-md active:scale-95 text-center flex items-center justify-center gap-2"
+            >
+              <span className="text-sm flex items-center gap-2">
+                스크롤 해서 더 알아보기
+                <svg 
+                  className="w-4 h-4 text-sky-400 animate-bounce" 
+                  fill="none" 
+                  stroke="currentColor" 
+                  viewBox="0 0 24 24"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                </svg>
+              </span>
+            </button>
           </div>
         </div>
       </section>
 
-      {/* Scroll Hint - Between Hero and VERITAS Promise */}
-      <div className="flex flex-col items-center justify-center pt-0 pb-2 sm:pb-3 gap-2 opacity-70">
-        <span className="text-xs sm:text-sm text-gray-500 font-medium">더 알아보기</span>
-        <svg 
-          className="w-6 h-6 sm:w-8 sm:h-8 text-sky-400 animate-bounce" 
-          fill="none" 
-          stroke="currentColor" 
-          viewBox="0 0 24 24"
-        >
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-        </svg>
-      </div>
-
       {/* VERITAS Promise Section */}
-      <section className="py-8 sm:py-12 md:py-16 px-4 bg-gradient-to-b from-white via-sky-50/30 to-white relative overflow-hidden">
+      <section id="veritas-promise" className="py-8 sm:py-12 md:py-16 px-4 bg-gradient-to-b from-white via-sky-50/30 to-white relative overflow-hidden">
         <div className="max-w-5xl mx-auto text-center relative z-10">
           <div className="inline-block mb-6 sm:mb-8">
             <span className="text-xs sm:text-sm font-semibold text-sky-500 uppercase tracking-wider px-4 py-2 bg-sky-50 rounded-full border border-sky-200">
