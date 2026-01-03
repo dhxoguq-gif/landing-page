@@ -207,7 +207,7 @@ export default function Home() {
                   className="object-cover rounded-lg flex-shrink-0"
                 />
                 <p className="text-gray-600 leading-relaxed">
-                  영남대학교, 경북대학교 출신 운영자들의 넓은 인력풀을 통해 다양한 분들과의 만남을 제공합니다. 다양한 직업과 배경을 가진 분들과의 만남이 가능합니다.
+                  경희대학교, 경북대학교 출신 운영자들의 넓은 인력풀을 통해 다양한 분들과의 만남을 제공합니다. 다양한 직업과 배경을 가진 분들과의 만남이 가능합니다.
                 </p>
               </div>
             </div>
@@ -239,7 +239,7 @@ export default function Home() {
           <div className="space-y-8">
             {/* Step 1 */}
             <div className="flex gap-6 items-start">
-              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-sky-600 flex items-center justify-center text-white font-bold text-xl shadow-md">
+              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-sky-500 flex items-center justify-center text-white font-bold text-xl shadow-md">
                 1
               </div>
               <div className="flex-1">
@@ -250,7 +250,7 @@ export default function Home() {
 
             {/* Step 2 */}
             <div className="flex gap-6 items-start">
-              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-sky-600 flex items-center justify-center text-white font-bold text-xl shadow-md">
+              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-sky-500 flex items-center justify-center text-white font-bold text-xl shadow-md">
                 2
               </div>
               <div className="flex-1">
@@ -261,7 +261,7 @@ export default function Home() {
 
             {/* Step 3 */}
             <div className="flex gap-6 items-start">
-              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-sky-600 flex items-center justify-center text-white font-bold text-xl shadow-md">
+              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-sky-500 flex items-center justify-center text-white font-bold text-xl shadow-md">
                 3
               </div>
               <div className="flex-1">
@@ -272,7 +272,7 @@ export default function Home() {
 
             {/* Step 4 */}
             <div className="flex gap-6 items-start">
-              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-sky-600 flex items-center justify-center text-white font-bold text-xl shadow-md">
+              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-sky-500 flex items-center justify-center text-white font-bold text-xl shadow-md">
                 4
               </div>
               <div className="flex-1">
@@ -283,7 +283,7 @@ export default function Home() {
 
             {/* Step 5 */}
             <div className="flex gap-6 items-start">
-              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-sky-600 flex items-center justify-center text-white font-bold text-xl shadow-md">
+              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-sky-500 flex items-center justify-center text-white font-bold text-xl shadow-md">
                 5
               </div>
               <div className="flex-1">
@@ -294,7 +294,7 @@ export default function Home() {
 
             {/* Step 6 */}
             <div className="flex gap-6 items-start">
-              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-sky-600 flex items-center justify-center text-white font-bold text-xl shadow-md">
+              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-sky-500 flex items-center justify-center text-white font-bold text-xl shadow-md">
                 6
               </div>
               <div className="flex-1">
@@ -309,7 +309,7 @@ export default function Home() {
 
             {/* Step 7 */}
             <div className="flex gap-6 items-start">
-              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-sky-600 flex items-center justify-center text-white font-bold text-xl shadow-md">
+              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-sky-500 flex items-center justify-center text-white font-bold text-xl shadow-md">
                 7
               </div>
               <div className="flex-1">
@@ -320,7 +320,7 @@ export default function Home() {
 
             {/* Step 8 */}
             <div className="flex gap-6 items-start">
-              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-sky-600 flex items-center justify-center text-white font-bold text-xl shadow-md">
+              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-sky-500 flex items-center justify-center text-white font-bold text-xl shadow-md">
                 8
               </div>
               <div className="flex-1">
@@ -408,7 +408,8 @@ export default function Home() {
       <section className="py-20 px-4 bg-gray-50">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">
-            ⚠️ 주의사항 (꼭 읽어주세요!)
+            ⚠️ 주의사항
+            <span className="block text-xl md:text-2xl font-normal mt-2">(꼭 읽어주세요!)</span>
           </h2>
           
           <div className="space-y-4">
@@ -518,7 +519,7 @@ export default function Home() {
       {/* Closing CTA Section */}
       <section className="py-20 px-4 bg-gradient-to-b from-sky-50 to-white">
         <div className="max-w-4xl mx-auto text-center">
-          <p className="text-lg md:text-xl text-gray-700 mb-8 leading-relaxed">
+          <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
             개인의 프라이버시가 중요시되는 세상에서<br />
             점점 더 이성간 만남의 기회가 줄어들고 있어<br />
             아쉬움을 느꼈고, 지인들을 매칭해주면서<br />
@@ -526,17 +527,6 @@ export default function Home() {
             <br />
             지금 바로 신청하세요!
           </p>
-          <div className="flex flex-col items-center gap-2">
-            <a 
-              href="https://naver.me/5xapdBCq" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="inline-block bg-gray-900 hover:bg-gray-800 text-white font-bold py-4 px-10 rounded-xl text-lg transition duration-300 shadow-lg hover:shadow-xl"
-            >
-              자격 확인하기
-              <span className="block text-sm font-normal mt-1">선착순 마감</span>
-            </a>
-          </div>
         </div>
       </section>
     </main>
