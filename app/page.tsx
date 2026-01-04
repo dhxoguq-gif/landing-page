@@ -369,7 +369,7 @@ export default function Home() {
               <div className="bg-gradient-to-r from-sky-50 to-sky-100 p-6 rounded-xl border-2 border-sky-300">
                 <div className="flex justify-center gap-8 mb-4">
                   <div className="text-center">
-                    <p className="text-2xl font-bold text-gray-900">남성 35,000원</p>
+                    <p className="text-2xl font-bold text-gray-900">남성 30,000원</p>
                   </div>
                   <div className="text-center">
                     <p className="text-2xl font-bold text-gray-900">여성 20,000원</p>
@@ -490,7 +490,7 @@ export default function Home() {
             <div className="bg-white p-6 rounded-xl border border-gray-200 shadow-lg">
               <h4 className="text-xl font-bold mb-3 text-sky-500">Q. 연락처 제공은 무조건 되나요?</h4>
               <p className="text-gray-600 leading-relaxed">
-                아닙니다! 스토킹 등 불미스러운 일을 방지하기 위해 반드시 상대방이 '동의'했을 때만 제공! 안전하고 매너 있는 만남을 지향!
+                매칭 과정에서 최종선택에서 상호 선택 후 서로 동의했을 때만 제공하므로써 안전하고 매너 있는 만남을 지향합니다!
               </p>
             </div>
           </div>
@@ -498,16 +498,37 @@ export default function Home() {
       </section>
 
       {/* Closing CTA Section */}
-      <section className="py-20 px-4 bg-gradient-to-b from-sky-50 to-white">
-        <div className="max-w-4xl mx-auto text-center">
-          <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
-            개인의 프라이버시가 중요시되는 세상에서<br />
-            점점 더 이성간 만남의 기회가 줄어들고 있어<br />
-            아쉬움을 느꼈고, 지인들을 매칭해주면서<br />
-            즐거움을 느껴 이 모임을 시작하게 됐습니다.<br />
-            <br />
-            지금 바로 신청하세요!
-          </p>
+      <section className="py-20 px-4 bg-gradient-to-b from-white to-sky-50">
+        <div className="max-w-4xl mx-auto">
+          <div className="bg-white rounded-2xl p-8 md:p-12 shadow-xl border border-sky-100">
+            <div className="text-center space-y-6">
+              <div className="flex justify-center mb-6">
+                <span className="text-4xl text-sky-500">"</span>
+              </div>
+              <div className="space-y-4 text-gray-700">
+                <p className="text-lg md:text-xl leading-relaxed font-medium">
+                  개인의 프라이버시가 중요시되는 세상에서
+                </p>
+                <p className="text-lg md:text-xl leading-relaxed font-medium">
+                  점점 더 이성간 만남의 기회가 줄어들고 있어
+                </p>
+                <p className="text-lg md:text-xl leading-relaxed font-medium">
+                  아쉬움을 느꼈고, 지인들을 매칭해주면서
+                </p>
+                <p className="text-lg md:text-xl leading-relaxed font-medium">
+                  즐거움을 느껴 이 모임을 시작하게 됐습니다.
+                </p>
+              </div>
+              <div className="flex justify-center mt-6">
+                <span className="text-4xl text-sky-500">"</span>
+              </div>
+              <div className="pt-6 border-t border-gray-200 mt-8">
+                <p className="text-xl md:text-2xl font-bold text-gray-900">
+                  지금 바로 신청하세요!
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>
