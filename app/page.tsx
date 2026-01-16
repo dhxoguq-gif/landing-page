@@ -1,8 +1,6 @@
 
 "use client";
 
-import Image from "next/image";
-
 export default function Home() {
   return (
     <main className="min-h-screen bg-white text-gray-900">
@@ -67,7 +65,7 @@ export default function Home() {
                 <span className="whitespace-nowrap">인스타그램</span>
               </a>
               <a 
-                href="https://open.kakao.com/o/sC4JHI9h" 
+                href="https://open.kakao.com/o/gdAcbSbi" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-[#FEE500] hover:bg-[#FEE500]/90 text-gray-900 font-semibold py-3 px-2 rounded-xl text-xs md:text-sm transition duration-300 shadow-lg hover:shadow-xl flex items-center justify-center gap-1.5 min-h-[72px] leading-tight"
@@ -75,7 +73,7 @@ export default function Home() {
                 <svg className="w-4 h-4 md:w-5 md:h-5 flex-shrink-0" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M12 3c5.799 0 10.5 3.664 10.5 8.185 0 4.52-4.701 8.184-10.5 8.184a13.5 13.5 0 0 1-1.727-.11l-4.408 2.883c-.501.265-.678.236-.472-.413l.892-3.678c-2.88-1.46-4.785-3.99-4.785-6.866C1.5 6.665 6.201 3 12 3z"/>
                 </svg>
-                <span className="whitespace-nowrap text-center">초대권 소지자 문의방</span>
+                <span className="whitespace-nowrap text-center">VERITAS 자유 수다방</span>
               </a>
             </div>
             <a 
@@ -198,18 +196,9 @@ export default function Home() {
                 <div className="text-3xl">🎓</div>
                 <h4 className="text-2xl font-bold text-gray-900">넓은 인력풀</h4>
               </div>
-              <div className="flex items-start gap-4">
-                <Image 
-                  src="/KakaoTalk_20251230_222633340.jpg" 
-                  alt="졸업 사진" 
-                  width={96}
-                  height={96}
-                  className="object-cover rounded-lg flex-shrink-0"
-                />
-                <p className="text-gray-600 leading-relaxed">
-                  경희대학교, 경북대학교 출신 운영자들의 넓은 인력풀을 통해 다양한 분들과의 만남을 제공합니다. 다양한 직업과 배경을 가진 분들과의 만남이 가능합니다.
-                </p>
-              </div>
+              <p className="text-gray-600 leading-relaxed">
+                <span className="text-[#FF6B35] font-semibold">경희대학교, 경북대학교 출신 운영자들</span>의 넓은 인력풀을 통해 다양한 분들과의 만남을 제공합니다. 다양한 직업과 배경을 가진 분들과의 만남이 가능합니다.
+              </p>
             </div>
 
             {/* 차별점 5 - 사후관리 서비스 */}
