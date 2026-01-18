@@ -356,12 +356,15 @@ export default function Home() {
             <div className="pt-6 border-t border-gray-200">
               <h3 className="text-2xl font-bold mb-6 text-sky-500">참가 비용</h3>
               <div className="bg-gradient-to-r from-sky-50 to-sky-100 p-6 rounded-xl border-2 border-sky-300">
+                <div className="text-center mb-4">
+                  <p className="text-lg font-bold text-sky-600 mb-2">참가비용 이벤트 할인가</p>
+                </div>
                 <div className="flex justify-center gap-8 mb-4">
                   <div className="text-center">
-                    <p className="text-2xl font-bold text-gray-900">남성 30,000원</p>
+                    <p className="text-2xl font-bold text-gray-900">남자 40,000원</p>
                   </div>
                   <div className="text-center">
-                    <p className="text-2xl font-bold text-gray-900">여성 20,000원</p>
+                    <p className="text-2xl font-bold text-gray-900">여자 30,000원</p>
                   </div>
                 </div>
                 <div className="mt-4 pt-4 border-t border-sky-300">
