@@ -17,14 +17,8 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section className="flex flex-col items-center justify-center min-h-screen px-4 py-20 relative overflow-hidden bg-gradient-to-b from-sky-50 to-white pt-24">
+      <section className="flex flex-col items-center justify-center min-h-screen px-4 py-20 relative overflow-hidden bg-gradient-to-b from-sky-50 to-white pt-32">
         <div className="max-w-2xl mx-auto text-center relative z-10">
-          <h1 className="text-5xl md:text-7xl font-bold mb-4 leading-tight text-gray-900">
-            집돌이 집순이들 모여라!
-          </h1>
-          <p className="text-lg md:text-xl text-gray-600 mb-12">
-            VERITAS 로테이션 소개팅
-          </p>
           <div className="w-full max-w-md mx-auto mb-8">
             <div className="grid grid-cols-2 gap-3 mb-4">
               <a 
