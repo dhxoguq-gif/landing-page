@@ -208,25 +208,7 @@ export default function Home() {
               </p>
             </div>
 
-            {/* 차별점 3 - 아르바이트생 없는 모임 */}
-            <div className="bg-white/95 backdrop-blur-sm p-8 rounded-2xl border border-orange-200/50 shadow-xl hover:shadow-2xl transition duration-300">
-              <div className="flex items-center gap-3 mb-4">
-                <div className="w-10 h-10 bg-gradient-to-br from-orange-500 to-amber-500 rounded-lg flex items-center justify-center">
-                  <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
-                  </svg>
-                </div>
-                <h4 className="text-2xl font-bold text-orange-600">아르바이트생 없는 모임</h4>
-              </div>
-              <p className="text-orange-500 leading-relaxed mb-2">
-                아르바이트생은 절대 없습니다. 모든 참가자는 직장인 인증을 완료한 분들만으로 구성되어 있어, 진정성 있는 만남을 보장합니다.
-              </p>
-              <p className="text-sm text-orange-500 italic">
-                ※아르바이트생은 운영자가 돈을 주고 참가를 부탁한 사람을 말함
-              </p>
-            </div>
-
-            {/* 차별점 4 - 넓은 인력풀 */}
+            {/* 차별점 3 - 넓은 인력풀 */}
             <div className="bg-white/95 backdrop-blur-sm p-8 rounded-2xl border border-orange-200/50 shadow-xl hover:shadow-2xl transition duration-300">
               <div className="flex items-center gap-3 mb-4">
                 <div className="text-3xl">🎓</div>
@@ -237,8 +219,8 @@ export default function Home() {
               </p>
             </div>
 
-            {/* 차별점 5 - 사후관리 서비스 */}
-            <div className="bg-white p-8 rounded-2xl border border-gray-200 shadow-lg hover:shadow-xl transition duration-300 md:col-span-2">
+            {/* 차별점 4 - 사후관리 서비스 */}
+            <div className="bg-white/95 backdrop-blur-sm p-8 rounded-2xl border border-orange-200/50 shadow-xl hover:shadow-2xl transition duration-300">
               <div className="flex items-center gap-3 mb-4">
                 <div className="text-3xl">💌</div>
                 <h4 className="text-2xl font-bold text-orange-600">사후관리 서비스</h4>
@@ -541,13 +523,6 @@ export default function Home() {
           </h2>
           
           <div className="space-y-6">
-            <div className="bg-white/95 backdrop-blur-sm p-6 rounded-xl border border-orange-200/50 shadow-xl">
-              <h4 className="text-xl font-bold mb-3 bg-gradient-to-r from-orange-600 to-amber-600 bg-clip-text text-transparent">Q. 정말로 아르바이트생이 없나요?</h4>
-              <p className="text-orange-500 leading-relaxed">
-                네, 100% 결혼하고싶은 지인과 지인의 지인들 그리고 명함과 서류를 통해 증명된 사람들의 모임입니다. 아르바이트생은 절대 없으며, 모든 참가자는 직장인 인증을 완료한 분들만으로 구성되어 있어 진정성 있는 만남을 보장합니다.
-              </p>
-            </div>
-
             <div className="bg-white p-6 rounded-xl border border-gray-200 shadow-lg">
               <h4 className="text-xl font-bold mb-3 bg-gradient-to-r from-orange-600 to-amber-600 bg-clip-text text-transparent">Q. 참가비용 환급 문제</h4>
               <div className="text-gray-600 leading-relaxed space-y-2">
