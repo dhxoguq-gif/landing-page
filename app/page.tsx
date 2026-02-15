@@ -42,7 +42,7 @@ export default function Home() {
           <div className="w-full max-w-md mx-auto mb-6 sm:mb-8">
             <div className="grid grid-cols-2 gap-2 sm:gap-3 mb-3 sm:mb-4">
               <a 
-                href="https://naver.me/5xapdBCq" 
+                href="https://naver.me/FjmqLWbq" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-white/90 hover:bg-white text-gray-900 font-semibold py-2.5 sm:py-3 px-1.5 sm:px-2 rounded-lg sm:rounded-xl text-[10px] sm:text-xs md:text-sm transition duration-300 shadow-lg hover:shadow-xl flex items-center justify-center gap-1 sm:gap-1.5 min-h-[60px] sm:min-h-[72px] leading-tight backdrop-blur-sm"
