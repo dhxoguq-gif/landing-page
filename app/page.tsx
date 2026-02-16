@@ -584,6 +584,16 @@ export default function Home() {
                 <p className="text-lg sm:text-xl md:text-2xl font-bold bg-gradient-to-r from-amber-600 to-orange-600 bg-clip-text text-transparent">
                   지금 바로 신청하세요!
                 </p>
+                <a
+                  href="https://naver.me/FjmqLWbq"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 mt-5 sm:mt-6 px-6 sm:px-8 py-3 sm:py-4 rounded-full bg-gradient-to-r from-amber-400 via-orange-400 to-pink-400 text-white font-bold text-base sm:text-lg shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 transition-all duration-300 border-2 border-white/30 hover:border-white/50"
+                >
+                  <span className="text-xl sm:text-2xl">✨</span>
+                  신청하기
+                  <span className="text-lg sm:text-xl">💕</span>
+                </a>
               </div>
             </div>
           </div>
