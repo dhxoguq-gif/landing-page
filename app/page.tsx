@@ -401,15 +401,14 @@ export default function Home() {
                 </div>
                 <div className="flex flex-col sm:flex-row justify-center gap-4 sm:gap-8 mb-3 sm:mb-4">
                   <div className="text-center">
-                    <p className="text-xl sm:text-2xl font-bold text-gray-900">남자 40,000원</p>
+                    <p className="text-xl sm:text-2xl font-bold text-gray-900">남성 40,000원</p>
                   </div>
                   <div className="text-center">
-                    <p className="text-xl sm:text-2xl font-bold text-gray-900">여자 30,000원</p>
+                    <p className="text-xl sm:text-2xl font-bold text-gray-900">여성 20,000원</p>
                   </div>
                 </div>
                 <div className="mt-3 sm:mt-4 pt-3 sm:pt-4 border-t border-orange-300">
                   <p className="text-sm sm:text-base text-orange-500 mb-1 sm:mb-2">* 여성 동반참여 시 1인당 5,000원 추가할인</p>
-                  <p className="text-base sm:text-lg font-bold bg-gradient-to-r from-orange-600 to-amber-600 bg-clip-text text-transparent">최대 할인액 10,000원</p>
                 </div>
               </div>
             </div>
@@ -527,7 +526,7 @@ export default function Home() {
               <div className="text-sm sm:text-base text-gray-600 leading-relaxed space-y-1.5 sm:space-y-2">
                 <p>취소 시점에 따라 환급 정책이 다릅니다:</p>
                 <ul className="list-disc list-inside space-y-1 ml-2">
-                  <li>3일 전 취소 시: 참가비 100% 환급</li>
+                  <li>일주일 전 취소 시: 참가비 100% 환급</li>
                   <li>하루 전 취소 시: 참가비 50% 환급</li>
                   <li>당일 취소 시: 참가비 환급 없음</li>
                 </ul>
