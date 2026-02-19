@@ -527,8 +527,8 @@ export default function Home() {
                 <p>취소 시점에 따라 환급 정책이 다릅니다:</p>
                 <ul className="list-disc list-inside space-y-1 ml-2">
                   <li>일주일 전 취소 시: 참가비 100% 환급</li>
-                  <li>하루 전 취소 시: 참가비 50% 환급</li>
-                  <li>당일 취소 시: 참가비 환급 없음</li>
+                  <li>3일 전 취소 시: 참가비 50% 환급</li>
+                  <li>그외 취소 시: 참가비 환급 없음</li>
                 </ul>
               </div>
             </div>
